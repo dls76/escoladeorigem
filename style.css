@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A52FD;
+}
+
+#escola, button {
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+}
+
+#escola {
+    background-color: #d4e8ff;
+    color: #06224a;
+    width: 500px;
+}
+
+#escola:focus {
+    outline: none;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #4EFE93;
+}
+
+button:hover {
+    background-color:#22cc66;
+    transition: .3s;
+    cursor: pointer;
+}
+
