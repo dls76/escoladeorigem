@@ -5,12 +5,27 @@
     font-family: sans-serif;
 }
 
-body {
-    height: 100vh;
+main {
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e2e2e2;
+}
+
+#header {
+   width: 100%;
+   text-align: center;
+   /* border-bottom: 2px solid white; */
+   /* display: flex;
+   justify-content: center; */
+}
+
+header h1 {
     background-color: #5A52FD;
+    padding: .7rem;
+    letter-spacing: .05rem;
+    color: white;
 }
 
 #escola, button {
@@ -21,7 +36,7 @@ body {
 }
 
 #escola {
-    background-color: #d4e8ff;
+    background-color: #fff;
     color: #06224a;
     width: 500px;
 }
@@ -32,12 +47,17 @@ body {
 
 button {
     margin-left: 10px;
-    background-color: #4EFE93;
+    background-color: #5A52FD;
+    color: white;
 }
 
 button:hover {
-    background-color:#22cc66;
+    background-color:#7068fc;
     transition: .3s;
     cursor: pointer;
 }
-
+/* 
+img {
+    width: 40px;
+    border-radius: 5px;
+} */
